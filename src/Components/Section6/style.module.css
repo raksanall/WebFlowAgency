@@ -1,0 +1,109 @@
+.Section6{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MainDiv{margin: 0 auto;
+   max-width: 80vw;
+   height: 90vh;
+   display: flex;flex-direction: row;
+   width: 100%;
+}
+.LeftDiv, .RightDiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.LeftDiv{
+    gap: 30px;
+  
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(28, 30, 83, 0.50);
+   background-size: cover;
+   background-image: url(../../../public//woman-writing-on-paper-3228878.png);
+}
+.RightDiv{gap: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C1E53;
+}
+.LeftDiv h2{width: 79%;
+   color: white;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 74px;
+}
+.LeftDiv p{
+    width: 80%;
+
+}
+.RightDiv form{gap: 23px;
+    display: flex;
+    flex-direction: column;
+}
+.RightDiv form input{border: 1.5px solid rgba(255, 255, 255, 0.05);
+    width: 400px;
+    padding: 16px;
+    background-color: transparent;
+    border-radius: 8px;
+}
+.RightDiv h4{
+    color: #FFF;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px; 
+}
+.RightDiv p{width: 77%;
+    color: var(--Grey, #F4F6FC);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 175% */
+}
+.RightDiv button{
+    border-radius: 41px;
+background: #FCD980;
+font-size: 18px;
+display: flex;
+width: 410px;
+height: 60px;
+margin-top: 10px;
+padding: 15px 51px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+}
+@media screen and  (max-width:1200px){
+   
+}
+@media screen and (max-width:1200px){
+   
+ 
+    .LeftDiv{
+       display: none;
+      } 
+      .MainDiv{
+        justify-content: center;
+      }  
+      .RightDiv{
+        width: 80%;
+      }
+}
+@media screen and (max-width:1000px)  {
+
+}
+@media screen and (max-width:768px){
+  
+}
+
+ @media screen and (max-width:570px){
+  
+            }

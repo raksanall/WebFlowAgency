@@ -1,0 +1,65 @@
+.Section2{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Section2 p{
+  width: 90%;
+}
+.RowForColumns{height: 40vh;
+    padding:  90px;
+    display: flex;
+    background: #F4F5F5;
+    align-items: center;
+    flex-direction: row;
+}
+.Image{width: 100%;
+    object-fit: cover;
+    height: 50vh;
+}
+.Image img{
+    width: 100%;
+}
+.RowForColumns div:first-child{
+  padding-bottom: 10px;
+}
+
+.Section2 h2{font-weight: normal;
+    color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 35px;
+    font-family: poppinsbold;
+}
+
+@media  screen and (max-width:1200px){
+   
+    .Section2{
+       height: fit-content;
+       padding-bottom: 100px;
+    }
+    .Section2 h2{
+        font-size: 25px ;
+    
+        width: 100%;
+    }
+   
+        
+}
+@media screen and (max-width:993px) {
+    .Image{display: none;}
+    .RowForColumns{padding: 50px;
+    height: fit-content;}
+   .Section2 h2{width: 100%;
+    font-size: 20px ;
+
+   }
+}
+@media screen and (max-width:768px){
+
+}
+
+ @media screen and (max-width:570px){
+  
+            }

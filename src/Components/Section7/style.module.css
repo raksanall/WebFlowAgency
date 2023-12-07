@@ -1,0 +1,22 @@
+.Section7{
+    height: 100vh;
+}
+.RowBlogs{gap: 40px;
+    flex-wrap: wrap;
+   justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.Section7 h2{margin: 0 auto;
+font-size: 40px;
+font-weight: 700;
+line-height: 64px;
+padding: 40px 0px 15px 19px ;
+
+}
+@media screen and (max-width:1200px) {
+    .Section7{
+        height: fit-content;
+    }
+    
+}

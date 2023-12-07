@@ -1,0 +1,41 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.Header{
+    height: 92px;
+    background-color: #1C1E53;
+    display: flex;
+    align-items: center;
+}
+.row{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.row svg{margin-left: 10px;
+    cursor: pointer;
+    color: white;
+  display: none;
+    width: 50px !important;
+    height: 50px !important;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:993px) {
+      
+  .Header .row svg{
+    display: block !important;
+  }
+
+}
+@media screen and (max-width:768px){
+
+    
+}
+
+@media screen and (max-width:570px){
+
+      }

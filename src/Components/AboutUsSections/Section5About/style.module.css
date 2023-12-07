@@ -1,0 +1,52 @@
+.RowPancards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.RowPancards div{
+    background-color: #F4F6FC;
+}
+
+.Section5{
+padding: 60px 0;
+}
+.Section5 h2{
+    color: var(--Dark-blue, #282938);
+text-align: center;
+margin: 0 auto;
+width: 50%;
+font-family: poppinsbold;
+font-size: 40px;
+font-weight: 600;
+line-height: 64px; 
+}
+.RowforLogo{width: 100%;
+    display: flex;
+    padding: 40px 0;
+    flex-direction: row;
+object-fit: cover;
+align-items: center; 
+ gap: 60px;
+}
+.RowforLogo img{
+    width: 100%;
+    height: 100%;
+ 
+}
+.RowforLogo .Column{
+    display: flex;
+    flex-direction: column;
+}
+.RowforLogo .Column p{
+    width: 120px;
+    font-size: 13px;
+    color: #312c2c;
+    display: block;
+}
+.RowforLogo .Column h3{
+    font-weight: 900;
+    font-size: 25px;
+    font-family: poppinsbold;
+}

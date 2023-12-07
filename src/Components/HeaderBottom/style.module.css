@@ -1,0 +1,74 @@
+.HeaderBottom{display: flex;
+    align-items: center;
+    height: calc(100vh - 92px);
+    width: 100vw;
+    background-color: #1C1E53;
+}
+.HeaderBottom h2{
+    font-size: 54px;
+font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.HeaderBottom p{color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+    opacity: 0.7;}
+    .column{display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+   .rowHeader{
+    display: flex;
+    flex-direction: row;
+   }
+   .image{
+    margin-left: 20px;
+    opacity: 0.9;
+    margin-top: 20px;
+   }
+   .ButtonRow{display: flex;
+  align-items: center;
+} 
+
+
+   @media screen and (min-width:993px) and (max-width:1200px){
+   }
+   @media screen and (max-width:1200px){
+      
+             .image{
+              display: none;
+             }
+          .rowHeader{
+           align-items: center;
+           justify-content: center;
+            
+          }.column{align-items: center;}
+             h2{
+              width: 60%;
+              text-align: center;
+             }
+            
+             
+           
+   }
+   @media screen and (max-width:993px) and (min-width:768px) {
+      
+             p{
+              font-size: 13px;
+             }
+             h2{
+              font-size: 46px;
+             }
+   }
+   @media screen and (max-width:768px){
+    .HeaderBottom h2{
+      font-size: 36px;
+     }
+             
+   }
+   
+    @media screen and (max-width:570px){
+     
+               }

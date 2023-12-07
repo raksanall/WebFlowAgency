@@ -1,0 +1,101 @@
+.Section4 p{
+    color: black;
+    width: 80%;
+}
+.Section4{box-sizing: border-box;
+    background-color: #F4F6FC;
+    padding-top: 70px;
+}
+.Row{padding-top: 80px;
+    display: flex;
+    width: 100%;
+  
+    flex-direction: row !important;
+    align-items: center;justify-content: center;
+}
+.Section4 h3{width: 80%;
+    font-size: 39px;
+    margin-bottom: 20px;
+}
+.Section4{
+  
+    height: 70vh;
+    display: flex;
+   
+
+}
+.mySwiper{margin: 0;padding: 0;
+    width: 100%;
+
+
+
+}
+.rowSlider{
+    display: flex;flex-direction: row;
+    margin-top: 30px;
+    gap: 20px;
+}
+.rowSlider img{
+    border-radius: 50%;
+}
+.SwiperSlide h5{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px; 
+    font-size: 27px;
+}
+.columns{
+    font-size: 18px;
+    font-weight: 700;
+}
+.columns2{font-size: 11px;
+    font-weight: 700;}
+.column1, .column2{justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.column1{
+    width: 40%;
+    height: 100%;
+  
+}
+.column2{
+    width: 60%;
+    height: 100%;
+}
+.buttonn{
+    color: brown;
+}
+.swiper-button-prev{
+    color: brown;
+}
+@media screen and  (max-width:1200px){
+    .Section4{
+        height: fit-content;
+       }
+}
+@media screen and (max-width:993px)  {
+  .Row{
+    flex-direction: column !important;
+  }
+  .column1{
+    width: 100%;
+}
+.column1 h3{
+    text-align: center;
+
+}
+.column2{margin-top: 60px;
+    width: 100%;
+  
+}
+.p{text-align: center;}
+}
+@media screen and (max-width:768px){
+  
+}
+
+ @media screen and (max-width:570px){
+  
+            }

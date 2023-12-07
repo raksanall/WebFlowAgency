@@ -1,0 +1,48 @@
+.Section2{height: 100vh;
+    width: 100vw;
+box-sizing: border-box;}
+.Section2 button{color: black;
+font-size: 20px !important;
+}
+.Section2 img{
+    width: 100%;
+    
+}
+.Section2 h2{color: #000;
+    font-size: 48px;}
+.row{padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.mainRow{box-sizing: border-box;
+    display: flex;
+    gap: 30px;
+   
+  
+   
+}
+.column{
+display: flex;
+gap: 57px;
+flex-direction: column;}
+.Portfolio2 {
+    /* background-color: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%); */
+    background-image: url("Portfolio2.png");
+    width:405px;
+    height: 260px;
+}
+    .Portfolio1 {width: 800px;
+        height: 80vh;
+        height: 580px;
+        background-size: cover cover;
+        background-repeat: no-repeat;
+        background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);}
+      .Portfolio1 { background-image: url("Portfolio1.png");
+      
+    
+      }
+      .Portfolio3{width: 405px;
+        height: 260px;
+        background-image: url("public/Portfolio3.png");
+      }
+     

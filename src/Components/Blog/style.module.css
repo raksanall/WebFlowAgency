@@ -1,0 +1,12 @@
+.Blog{gap: 20px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+}
+.Blog img{width: 100%;
+    object-fit: cover;
+}
+.Blog *{
+    color: #000;
+}

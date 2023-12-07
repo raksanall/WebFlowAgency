@@ -1,0 +1,17 @@
+.PanCard p{
+    opacity: 0.7;
+    color: #282938;
+}
+.PanCard{display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    padding: 5px 20px;
+    gap: 12px;
+    background-color: white;
+    width: 350px;
+    height: 220px;
+}
+.PanCard svg{
+    color: #2405F2;
+    font-size: 40px;
+}

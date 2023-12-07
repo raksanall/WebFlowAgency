@@ -1,0 +1,41 @@
+*{box-sizing: border-box;}
+.Row1 h3, .Row1 h5{
+    color: black;
+}
+.Row2 p{
+    color: black;
+    width: 80%;
+   
+}
+
+.Row1,.Row2{align-items: center;
+    display: flex;
+  
+    flex-direction: row;
+}
+.RowForMain{display: flex;
+    font-size: 20px;
+   
+flex-direction: column;
+}
+.Row1 .plus{
+    cursor: pointer;
+  
+}
+.Row2{
+    display: flex;
+   
+}
+.Row1{
+    gap: 27px;
+}
+.Row1 h5{
+font-size: 27px;
+color: blue;
+}
+.RowForMain hr{
+   margin-top: 30px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}

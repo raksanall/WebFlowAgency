@@ -1,0 +1,53 @@
+.Footer{
+    height: 350px;
+    width: 100vw;
+    background-color: #1C1E53;
+
+}
+.MainRow{ align-items: end;
+    height: 350px;
+    gap: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;}
+.RightColumn svg{
+    width: 45px;
+    color: white;
+    height: 45px;
+  
+}
+.RightColumn p{
+    width: 70%;
+    opacity: 0.8;
+   color: #F4F6FC;
+}
+.RightColumn{height: 350px;
+    gap: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.LeftColumn .ContactRows{display: flex;
+    width: 420px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 40px;
+    flex-direction: row;
+    background-color: #FCD980;
+}
+.LeftColumn {display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.ContactRows{
+    margin-top: 55px;
+}
+.RightColumn h3{
+    color: #FFF;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; 
+}

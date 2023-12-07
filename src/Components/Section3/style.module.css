@@ -1,0 +1,56 @@
+.PanCards{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+  
+}
+
+.Section3 h2{ color: #000;
+text-align: center;
+width: 35%;
+padding: 10px 0;
+font-size: 30px;
+}
+.Section3{display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+    background-color: #F4F6FC;
+}
+.column{
+    padding: 15px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media screen and  (max-width:1200px){
+   .Section3{
+    height: fit-content;
+   }
+}
+@media screen and (max-width:1200px){
+   
+    .PanCards{
+      
+      justify-content: center;
+      
+    }
+        
+}
+@media screen and (max-width:993px) and (min-width:768px) {
+    .Section3 h2{ 
+      
+        width: 60%;
+       
+        }
+}
+@media screen and (max-width:768px){
+
+}
+
+ @media screen and (max-width:570px){
+  
+            }

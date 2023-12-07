@@ -1,0 +1,83 @@
+
+.Section1{ background-color: #F4F6FC;
+height: 90vh;
+display: flex;
+align-items: center;}
+.Section1 h2{font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    font-weight: bold;
+    color: black;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.Section1 p{
+    color:  #282938;
+}
+.Section1 button{cursor: pointer;
+    color: #2405F2;
+    font-size: 18px;
+font-weight: 500;
+}
+
+.rowSection1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Card{width: 300px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin: 16px;
+   margin-bottom: 30px;
+
+}
+.Card:hover{box-shadow:  3px 4px  rgba(200, 197, 197, 0.394);
+  
+    scale:1.1;
+    transition: 1s all ease-out;
+}
+.Card h3{font-size: 32px;
+    font-style: normal;
+    font-weight: 500;}
+.Card img{
+   width: 50px;
+   height: 50px;
+}
+.CardsRow{gap: 10px;
+  justify-content: end;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media screen and  (max-width:1200px){
+    .rowSection1{flex-direction: column;
+        align-items: center;
+    gap: 60px;}
+        .CardsRow{align-items: center;
+        justify-content: center;}
+        .Section1{height: fit-content;}
+        .column{align-items: center;
+        text-align: center;}
+}
+@media screen and (max-width:1200px){
+   
+       
+        
+}
+@media screen and (max-width:993px) and (min-width:768px) {
+   
+}
+@media screen and (max-width:768px){
+.Card{text-align: center;
+align-items: center;}
+}
+
+ @media screen and (max-width:570px){
+  
+            }
