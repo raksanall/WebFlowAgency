@@ -1,6 +1,7 @@
 
 import HeaderBottom from "../../Components/HeaderBottom"
 import Section1 from "../../Components/Section1"
+import Section2 from "../../Components/Section2"
 import Section3 from "../../Components/Section3"
 import Section4 from "../../Components/Section4"
 import Section5 from "../../Components/Section5"
@@ -12,6 +13,7 @@ const Home = () => {
     <div>
       <HeaderBottom src="Konu.png" h2title="Building stellar websites for early startups" ptitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."/>
       <Section1/>
+      <Section2/>
       <Section3/>
       <Section4/>
       <Section5/>

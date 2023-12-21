@@ -1,6 +1,4 @@
-.Section7{
-    height: 100vh;
-}
+
 .RowBlogs{gap: 40px;
     flex-wrap: wrap;
    justify-content: center;

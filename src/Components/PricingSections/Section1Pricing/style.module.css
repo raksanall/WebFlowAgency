@@ -1,0 +1,26 @@
+.PriceRow div:nth-child(2) * {
+    color: white;
+}
+.PriceRow{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 30px 0;
+}
+.Section1 .h2name, .pname {
+    margin: 0 auto;
+    padding: 5px 0;
+    display: block;
+    text-align: center;
+}
+.pname{opacity: 0.7;
+    width: 50%;
+    margin: 0 auto 20px auto;
+}
+.Section1 .h2name{
+    font-family: poppinsbold;
+    font-size: 40px;
+    margin: 40px 0 0 0;
+}

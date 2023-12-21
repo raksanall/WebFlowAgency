@@ -1,0 +1,16 @@
+.RowBlogs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 80px;
+}
+.Section2 h2{
+text-align: center;
+color: var(--Dark-blue, #282938);
+font-family: Poppinsbold;
+font-size: 40px;
+padding-bottom: 30px;
+
+}

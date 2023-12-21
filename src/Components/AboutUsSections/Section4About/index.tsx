@@ -10,10 +10,10 @@ const Section4About = () => {
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
       </div>
-      <div className={styles.image}><img src="public/a-man-standing-in-an-office-7792811.png" alt="" /></div>
+      <div className={styles.image}><img src="/a-man-standing-in-an-office-7792811.png" alt="" /></div>
     </div>
     <div className={styles.Section1}>
-    <div className={styles.image}><img src="public/photo-of-women-at-the-meeting-3810789.png" alt="" /></div>
+    <div className={styles.image}><img src="/photo-of-women-at-the-meeting-3810789.png" alt="" /></div>
       <div className={styles.column}>
 <h6>Our Vision</h6>
 <h2>Laser focus</h2>

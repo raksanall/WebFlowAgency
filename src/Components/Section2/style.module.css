@@ -1,4 +1,4 @@
-.Section2{height: 100vh;
+.Section2{
     width: 100vw;
 box-sizing: border-box;}
 .Section2 button{color: black;
@@ -18,31 +18,101 @@ font-size: 20px !important;
     display: flex;
     gap: 30px;
    
+   
   
    
 }
 .column{
 display: flex;
-gap: 57px;
+gap: 20px;
 flex-direction: column;}
-.Portfolio2 {
-    /* background-color: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%); */
-    background-image: url("Portfolio2.png");
-    width:405px;
-    height: 260px;
-}
-    .Portfolio1 {width: 800px;
-        height: 80vh;
-        height: 580px;
-        background-size: cover cover;
-        background-repeat: no-repeat;
-        background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);}
-      .Portfolio1 { background-image: url("Portfolio1.png");
-      
+
+    .Portfolio1 {
+        object-fit: cover cover;
+       position: relative;
+       width: 750px;
+       height: 520px;
+    }
+    .Portfolio1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .Portfolio2 img{
+        width: 100%;
+        height: 100%;
+    }
+    .Portfolio3 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .Absolute{
+        z-index: 2;
+        position: absolute;
+        width: 360px;
+        height: 520px;
+         background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    }
+    .Portfolio2 {
     
+        width: 380px;
+        height: 235px;
+        position: relative;
+    }
+    .Absolute2{
+        z-index: 2;
+        width: 380px;
+        height: 235px;
+        position: absolute;
+ background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    }
+ 
+      .Portfolio3{width: 380px;
+        height: 235px;
+       position: relative;
       }
-      .Portfolio3{width: 405px;
-        height: 260px;
-        background-image: url("public/Portfolio3.png");
+      .Absolute3{
+      
+        z-index: 2;
+        position: absolute;
+        width: 380px;
+        height: 235px;
       }
-     
+
+      .Absolute *:not(:last-child){
+        color: white;
+      }
+     .Absolute{
+        padding: 0 27px;
+        padding-bottom: 45px;
+        display: flex;
+        flex-direction: column;
+       justify-content: end;
+       gap: 20px;
+     }
+     .Absolute h3{
+       
+      
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px; 
+     }
+     .Absolute2{
+        padding: 0 27px;
+        padding-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+       justify-content: end;
+   gap: 8px;
+     }
+     .Absolute2 h3{
+       width: 70%;
+      color: white;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px; 
+     }

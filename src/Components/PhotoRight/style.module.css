@@ -1,0 +1,58 @@
+.PhotoRight{
+  
+    padding: 60px 0;
+    display: flex;
+    flex-direction: row;
+
+box-sizing: border-box;
+}
+.column{justify-content: center;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.column h6{color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    
+}
+    .column h3{
+        font-family:poppinsbold ;
+        color: #232536;
+        font-size: 36px;
+width: 90%;
+        letter-spacing: 1px;
+    }
+    .column p{
+        color: var(--Dark-blue, #282938);
+font-family: Poppins;
+font-size: 16px;
+
+    }
+    .PhotoRight img{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .image{padding: 0 20px;
+        object-fit: cover cover !important;
+        width: 90%;
+        height: 100%;
+    }
+   
+    @media screen and (max-width:993px) {
+        .image{display: none;}
+        .PhotoRight .column{
+           padding: 30px 0;
+        }
+        .PhotoRight{
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .PhotoRight .column  *{
+          
+            margin: 0 auto;
+        }
+    }

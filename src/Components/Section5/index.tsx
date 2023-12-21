@@ -11,11 +11,11 @@ const Section5 = () => {
         <a href="">Contact us for more info</a>
        </div>
        <div className= {styles.LinesColumn}>
-<Line number="01" title="How much time does it take?" ptitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"/>
-<Line number="02" title="What is your class naming convention?" ptitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"/>
-<Line number="03" title="How do you communicate?" ptitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"/>
-<Line number="04" title="I have a bigger project. Can you handle it?" ptitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"/>
-<Line number="05" title="What is your class naming convention?" ptitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"/>
+<Line number="01" title="How much time does it take?" ptitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
+<Line number="02" title="What is your class naming convention?" ptitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
+<Line number="03" title="How do you communicate?" ptitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
+<Line number="04" title="I have a bigger project. Can you handle it?" ptitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
+<Line number="05" title="What is your class naming convention?" ptitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
 
        </div>
        </div>

@@ -1,10 +1,11 @@
 .Section4 p{
     color: black;
     width: 80%;
+   
 }
 .Section4{box-sizing: border-box;
-    background-color: #F4F6FC;
-    padding-top: 70px;
+    background-color: #f4f6fc79;
+   padding: 70px 0;
 }
 .Row{padding-top: 80px;
     display: flex;
@@ -19,7 +20,6 @@
 }
 .Section4{
   
-    height: 70vh;
     display: flex;
    
 

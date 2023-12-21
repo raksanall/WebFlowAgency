@@ -26,14 +26,10 @@ line-height: 64px;
     display: flex;
     padding: 40px 0;
     flex-direction: row;
+    flex-wrap: wrap;
 object-fit: cover;
 align-items: center; 
  gap: 60px;
-}
-.RowforLogo img{
-    width: 100%;
-    height: 100%;
- 
 }
 .RowforLogo .Column{
     display: flex;

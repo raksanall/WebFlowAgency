@@ -1,0 +1,24 @@
+.image{
+    object-fit: cover;
+  width: 535px;
+}
+.image img{
+    object-fit: cover cover;
+    width: 100%;
+}
+.image{
+    object-fit: contain cover;
+}
+.Template{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 535px;
+}
+.Template h2{
+    font-family: poppinsbold;
+}
+.Template a{
+    display: flex;
+}

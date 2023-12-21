@@ -13,13 +13,13 @@ const Section6 = () => {
           <div className={styles.RightDiv}>
             <h4>Send inquiry</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
-<form >
-<input type="text" placeholder="Your Name"/>
-<input type="text" placeholder="Email"/>
-<input type="text" placeholder="Paste your Figma design URL"/>
-<button type="submit">Send an Inquiry</button>
-<ViewArrow title="Get in touch with us" border="none" bg="transparent"/>
-</form>
+            <form >
+              <input type="text" placeholder="Your Name" />
+              <input type="text" placeholder="Email" />
+              <input type="text" placeholder="Paste your Figma design URL" />
+              <button onClick={(e)=>{e.preventDefault();}} type="submit">Send an Inquiry</button>
+              <ViewArrow onClick={(e) => { e.preventDefault(); }}  title="Get in touch with us" border="none" bg="transparent" />
+            </form>
           </div>
         </div>
       </div>

@@ -1,0 +1,68 @@
+.RowforLogo{width: 100%;
+    display: flex;
+    padding: 60px 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+object-fit: cover;
+align-items: center; 
+ gap: 50px;
+}
+.RowforLogo .Column{
+    display: flex;
+    flex-direction: column;
+}
+.RowforLogo .Column p{
+    width: 94px;
+    font-size: 13px;
+    color: #312c2c;
+    display: block;
+}
+.RowforLogo .Column h3{
+    font-weight: 900;
+    font-size: 25px;
+    font-family: poppinsbold;
+}
+.Pancards{
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 0px 0px 50px 0;
+    margin: 0px 0px 50px 0;
+    flex-direction: row;
+}
+.Pancards div{
+    background-color: #F4F6FC;
+}
+.Section1 h2{
+    /* color: var(--Dark-blue, #282938); */
+    text-align: center;
+    font-family: Poppins;
+    font-size: 41px;
+    font-family: poppinsbold;
+    font-weight: 600;
+    width: 45%;
+    padding: 0px 0px 30px 0;
+    margin: 0 auto;
+    letter-spacing: -1px;
+    line-height: 64px;
+}
+
+
+@media screen and (max-width:763px) {
+    .Section1 h2{
+        font-size: 30px;
+        width: 80%;
+    
+    }
+    .RowforLogo{
+        display: none !important;
+    }
+}
+@media screen and (max-width:993px) {
+    .RowforLogo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

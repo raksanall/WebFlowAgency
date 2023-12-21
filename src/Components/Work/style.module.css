@@ -1,0 +1,62 @@
+.Section1{
+    background: #F4F6FC;
+}
+.rowNames{display: flex;
+    padding: 40px 0;
+flex-direction: row;
+gap: 30px;
+justify-content: center;}
+.rowNames div{
+    font-size: 22px;
+    cursor: pointer;
+}
+.rowNames div:hover{
+    text-decoration: underline;
+}
+.ColumnMain, .Section3{
+   gap: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 85px 0;
+}
+.ColumnMain p,  .Section3 p{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    width: 65%;
+    text-align: center;
+}
+.ColumnMain h6{
+    color: var(--Dark-blue, #282938);
+text-align: center;
+font-size: 16px;}
+.ColumnMain .icons{
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+}
+.ColumnMain .icons svg{
+    font-size: 17px;
+}
+.ColumnMain h2,  .Section3 h2{
+
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppinsbold;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; 
+}
+.Section3 h2{
+    width: 70%;
+}
+.Section2{
+    justify-content: center;
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}

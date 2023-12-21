@@ -1,16 +1,20 @@
 import { titleType } from "../../Types"
-import ViewArrow from "../ViewArrow"
+import TrendingFlatIcon from '@mui/icons-material/TrendingFlat';
 import styles from "./style.module.css"
+import { Link } from "react-router-dom";
 
-const Blog = ({src}:titleType) => {
+const Blog = ({  id ,title,img,description,date}: titleType) => {
   return (
     <div className={styles.Blog}>
-      <img src={src} alt="" />
-  <span>19 Jan 2022</span>
-  <h3>How one Webflow user grew his single person consultancy from $0-100K in 14 months</h3>
-  <p>See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
-  <ViewArrow title="Read More" border="none" bg="transparent"/>
+      <img src={img} alt="" />
+      <span>{date}</span>
+      <h3>{title}</h3>
+      <p>{description}</p>
+      <div className={styles.rowarrow}>
+        <Link to={`/Blog/${id}`}>Read More</Link><TrendingFlatIcon />
+      
     </div>
+    </div >
   )
 }
 

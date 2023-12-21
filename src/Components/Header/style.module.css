@@ -13,22 +13,73 @@
     
 }
 
-.row svg{margin-left: 10px;
-    cursor: pointer;
-    color: white;
-  display: none;
-    width: 50px !important;
-    height: 50px !important;
+.navlink{
+  box-sizing: border-box;
+  text-decoration: none;
+font-size: 20px;
+color: rgba(213, 200, 200, 0.666);
 }
+.active{ 
+  background: linear-gradient(90deg,rgba(28,30,83,1)  0%, rgb(73, 138, 230) 55%, rgba(28,30,83,1) 100%);
+  color: white;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.burgerMenu{ 
+  z-index: 2;
+  background: linear-gradient(90deg,rgba(28,30,83,1)  0%, rgb(15, 64, 134) 55%, rgba(28,30,83,1) 100%);
+  display: none ;
+  top: 92px;
+  width: 300px;
+  right:0px;
+  flex-direction: column;
+border: 6px solid rgba(4, 14, 82, 0.213);
+position: absolute;
+}
+.burgerMenu a{ 
+  padding: 0 20px;
+  border-bottom: 1px solid grey;
+ padding: 10px 20px;
+ text-align: center;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+}
+.burgerMenu a:hover {
+  background: linear-gradient(90deg,rgba(28,30,83,1)  0%, rgb(73, 138, 230) 55%, rgba(28,30,83,1) 100%);
+
+}
+.show {
+  display: flex !important; 
+}
+
+.burger div {
+    
+    color: white;
+ 
+}
+
 .Logo{
     display: flex;
     align-items: center;
 }
+@media screen and (min-width:993px){
+  .burgerMenu{
+    display: none !important;
+  }
+  .burger{
+    display: none !important;
+  }
+}
 @media screen and (max-width:993px) {
       
-  .Header .row svg{
-    display: block !important;
+  .Header .burger div{
+    display: block ;
   }
+  .Header .row div:not(.burger div){
+    display: none !important;
+  }
+  
 
 }
 @media screen and (max-width:768px){

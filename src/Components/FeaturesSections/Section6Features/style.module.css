@@ -1,0 +1,47 @@
+.Section5{
+ 
+    height:80vh;
+}
+.RowMain{
+    justify-content: space-between;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.ColumnLeft h2{
+    font-size: 38px;
+    width: 60%;
+}
+.LinesColumn{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+@media screen and  (max-width:1200px){
+  .Section5{
+    height: fit-content;
+  }
+}
+@media screen and (max-width:1200px){
+   
+ 
+        
+}
+@media screen and (max-width:993px)  {
+    .RowMain{
+        flex-direction: column;
+       align-items: center;
+    }
+    .ColumnLeft{flex-direction: column;
+        display: flex;
+
+    align-items: center;
+    }
+}
+@media screen and (max-width:768px){
+  
+}
+
+ @media screen and (max-width:570px){
+  
+            }

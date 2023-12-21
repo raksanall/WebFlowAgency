@@ -11,10 +11,14 @@
     flex-direction: row;
     justify-content: center;}
 .RightColumn svg{
-    width: 45px;
+    cursor: pointer;
+    width: 20px;
     color: white;
-    height: 45px;
+    height: 20px;
   
+}
+.row{display: flex;
+    gap: 20px;
 }
 .RightColumn p{
     width: 70%;

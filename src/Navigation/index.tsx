@@ -7,13 +7,13 @@ const Navigation = () => {
   return (
     <div className={styles.Navigation}>
       {routes.map(({id,path,title})=>{
+         if (title !== "") {
         return(
             <NavLink className={({isActive})=>isActive ? "navlink active": "navlink"} 
-            to={path}
-            key={id}>
+              to={path} key={id}>
 {title}
             </NavLink>
-            );
+            )};
             })}
             
   

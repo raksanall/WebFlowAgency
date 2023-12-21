@@ -1,0 +1,59 @@
+.PriceCard{padding: 50px 0px 0 30px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 700px;
+    border-radius: 12px;
+
+}
+.priceRow{gap: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.imageRow{gap: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.PriceCard h2{ font-size: 33px;
+font-family: poppinsbold;}
+.PriceCard h6{
+    font-size: 15px;
+}
+.PriceCard h3{
+  font-size: 22px;
+}
+.PriceCard button{ cursor: pointer;
+    width: 220px;
+    height: 60px;
+    border-radius: 40px;
+    margin: 50px auto 0 auto;
+    font-size: 17px;
+    display: block;
+   
+}
+.lorem{
+    margin-bottom: 40px;
+}
+
+.PriceCard button:hover{
+    scale: 1.05;
+    font-size: 19px;
+    border-radius: 13px;
+    background-color: white !important;
+    color: black !important;
+    transition: 1.2s ease;
+}
+.imageRow:hover{
+    scale: 1.15;
+    transition: 0.5s all;
+    margin-left: 10px;
+}
+.imageRow:hover p{
+  font-family: poppinsbold;
+  text-decoration: underline;
+}

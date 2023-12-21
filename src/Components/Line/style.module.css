@@ -2,20 +2,22 @@
 .Row1 h3, .Row1 h5{
     color: black;
 }
+.Line{
+    margin: 14px 0;
+}
 .Row2 p{
-    color: black;
-    width: 80%;
+    color:black;
+   font-size: 21px;
    
 }
 
-.Row1,.Row2{align-items: center;
+.Row1{align-items: center;
     display: flex;
   
     flex-direction: row;
 }
-.RowForMain{display: flex;
+.ColumnForMain{display: flex;
     font-size: 20px;
-   
 flex-direction: column;
 }
 .Row1 .plus{
